@@ -13,4 +13,12 @@ public class PhoneNumber {
         Matcher matcher = pattern.matcher(regex);
         return matcher.matches();
     }
+
+    public int getNumber(int number){
+        if(number > 0){
+            return 0;
+        }
+
+        return 1;
+    }
 }
