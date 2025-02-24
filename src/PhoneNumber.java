@@ -21,4 +21,8 @@ public class PhoneNumber {
 
         return 1;
     }
+
+    public String getAddress(){
+        return "HA NOI";
+    }
 }
